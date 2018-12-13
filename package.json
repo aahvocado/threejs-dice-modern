@@ -1,12 +1,20 @@
 {
   "name": "threejs-dice-modern",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["dice", "roller", "threejs", "cannonjs"],
+  "version": "1.0.0",
+  "description": "updated 3D javascript dice roller",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dice",
+    "roller",
+    "threejs",
+    "cannonjs"
+  ],
   "author": "Daniel Xiao",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "three": "^0.99.0"
+  }
 }
